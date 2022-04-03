@@ -1,0 +1,19 @@
+div {
+    font-family: 'Poppins', sans-serif;
+}
+.brand-color {
+    color: #F60;
+}
+
+.raveMe-btn {
+    border: none;
+    background-color: #fdede0;
+    color: #F60;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: transform 1s linear;
+}
+
+.raveMe-btn:hover {
+    transform: scale(1.05);
+}
