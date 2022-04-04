@@ -5,6 +5,7 @@ import "./ReviewCard.css";
 const ReviewCard = (props) => {
     // Destructuring object
     const {name, description, rating, picture} = props.user;
+    
     return (
         <Col>
             <div className='reviewCard position-relative mb-4'>

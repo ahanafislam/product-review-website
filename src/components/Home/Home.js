@@ -4,10 +4,12 @@ import {Container, Row} from 'react-bootstrap';
 import Banner from '../Banner/Banner';
 import ReviewCard from '../ReviewCard/ReviewCard';
 import useUsers from '../../hooks/useUsers';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
     const [users, setUsers] = useUsers();
     const bestThree = users.slice(0, 3);
+    const navigate = useNavigate();
 
     return (
         <Container className='mt-4'>
@@ -25,7 +27,7 @@ const Home = () => {
                         ></ReviewCard>)
                     }
                 </Row>
-                <button className='raveMe-btn2'>See All Reviews</button>
+                <button onClick={() => navigate('/review')} className='raveMe-btn2'>See All Reviews</button>
             </div>
         </Container>
     );
