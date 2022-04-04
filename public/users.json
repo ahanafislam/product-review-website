@@ -1,0 +1,50 @@
+[
+    {
+      "id": "624ad6fdee9538fcdfd24fb9",
+      "name": "Jhon Doe",
+      "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+      "description": "This my dream bike ❤️ i'm very excited. Just Rave the bike's throttle and feel the power.",
+      "rating": 5
+
+    },
+    {
+      "id": "624ad6fdb9e7e7a1013efda7",
+      "name": "Ket Winslet",
+      "picture": "https://randomuser.me/api/portraits/women/57.jpg",
+      "description": "Best bike just because kavasaki is 1200000 in 900 cc but this is a magic because in 1200000 with 1200 cc",
+      "rating": 4.5
+
+    },
+    {
+      "id": "624ad6fd0f0bb91b5dc13da8",
+      "name": "Will Smith",
+      "picture": "https://randomuser.me/api/portraits/men/94.jpg",
+      "description": "This is monster bike it's my dream come true but i am waiting for launching in our country.",
+      "rating": 4.9
+
+    },
+    {
+      "id": "624ad6fd79b4977133872c62",
+      "name": "Robin Khan",
+      "picture": "https://randomuser.me/api/portraits/men/0.jpg",
+      "description": "Duke is the killer of all bike on their price segment. I Just love it.",
+      "rating": 5
+
+    },
+    {
+      "id": "624ad6fd537c719a84166759",
+      "name": "Tawfiq Hasan",
+      "picture": "https://randomuser.me/api/portraits/men/86.jpg",
+      "description": "I am glad is not a bike this is powerful machine & monster duke in segment i hope win iphone 13.",
+      "rating": 4.4
+
+    },
+    {
+      "id": "624ad6fda6c2a89048b77f06",
+      "name": "Karim Khan",
+      "picture": "https://randomuser.me/api/portraits/men/69.jpg",
+      "description": "This is Best and must advance powerful motorcycle. I just fall in love with KTM. ",
+      "rating": 4.7
+
+    }
+]

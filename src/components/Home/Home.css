@@ -17,3 +17,12 @@ div {
 .raveMe-btn:hover {
     transform: scale(1.05);
 }
+
+.raveMe-btn2 {
+    border: none;
+    background-color: #F60;
+    color: #fff;
+    padding: 5px 40px;
+    border-radius: 20px;
+    transition: transform 1s linear;
+}
