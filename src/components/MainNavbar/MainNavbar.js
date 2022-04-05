@@ -1,19 +1,19 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import CustomLink from '../CustomLink/CustomLink';
 
 const MainNavbar = () => {
     return (
-        <Navbar className='border-bottom' expand="lg">
+        <Navbar expand="lg">
             <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto ms-auto">
-                        <Link to="/" className='nav-link'>Home</Link>
-                        <Link to="/review" className='nav-link'>Reviews</Link>
-                        <Link to="/dashboard" className='nav-link'>Dashboard</Link>
-                        <Link to="/blogs" className='nav-link'>Blogs</Link>
-                        <Link to="/about" className='nav-link'>About</Link>
+                        <CustomLink to="/" className='nav-link m-1'>Home</CustomLink>
+                        <CustomLink to="/review" className='nav-link m-1'>Reviews</CustomLink>
+                        <CustomLink to="/dashboard" className='nav-link m-1'>Dashboard</CustomLink>
+                        <CustomLink to="/blogs" className='nav-link m-1'>Blogs</CustomLink>
+                        <CustomLink to="/about" className='nav-link m-1'>About</CustomLink>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
